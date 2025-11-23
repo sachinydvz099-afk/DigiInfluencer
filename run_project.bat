@@ -1,0 +1,6 @@
+@echo off
+echo Starting Backend...
+start cmd /k "uvicorn backend.main:app --reload"
+
+echo Starting Frontend...
+start cmd /k "npm run dev"
