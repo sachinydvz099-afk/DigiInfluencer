@@ -27,9 +27,9 @@ export default function Home() {
     <div className="min-h-screen bg-gray-900 text-white font-sans">
       {/* Navigation */}
       <nav className="flex justify-between items-center p-6 max-w-7xl mx-auto">
-        <div className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
-          DigiInfluencer
-        </div>
+        <h1 className="text-4xl font-bold tracking-tight sm:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600">
+          DigiInfluencer Studio (V2)
+        </h1>
         <div className="flex items-center gap-6">
           <Link href="/studio" className="text-gray-300 hover:text-white transition-colors">Studio</Link>
           <div className="text-sm text-gray-400">

@@ -55,9 +55,7 @@ campaigns_db = [
 ]
 
 # Endpoints
-@app.get("/")
-def read_root():
-    return {"message": "Welcome to DigiInfluencer API"}
+
 
 @app.get("/health")
 def health_check():
