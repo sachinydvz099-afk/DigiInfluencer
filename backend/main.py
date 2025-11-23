@@ -57,6 +57,14 @@ campaigns_db = [
 # Endpoints
 
 
+@app.get("/")
+def read_root():
+    return {
+        "status": "API Online",
+        "message": "You are seeing this because the Frontend is not loading.",
+        "frontend_url": "https://digi-influencer.vercel.app/studio" 
+    }
+
 @app.get("/health")
 def health_check():
     return {"status": "healthy", "service": "DigiInfluencer Backend"}
